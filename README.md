@@ -30,16 +30,16 @@ Installation Guide 📥
 Follow these steps to set up the project locally.
 
   1. Clone the Repository 📂
-      git clone https://github.com/your-username/E-Commerce-BookHub-Website-main.git
-      cd E-Commerce-BookHub-Website-main
+     git clone https://github.com/your-username/E-Commerce-BookHub-Website-main.git
+     cd E-Commerce-BookHub-Website-main
      
-  2. Install Backend Dependencies 🛠️
+  3. Install Backend Dependencies 🛠️
       Navigate to the backend directory and install required dependencies:
 
       cd backend
       npm install
      
-  3. Set Up Environment Variables ⚙️
+  4. Set Up Environment Variables ⚙️
       Create a .env file in the backend folder with the following variables:
 
       JWT_SECRET=your_jwt_secret_key
@@ -48,13 +48,13 @@ Follow these steps to set up the project locally.
       JWT_SECRET: The secret key used for signing JWTs.
       MONGO_URI: Your MongoDB connection string.
      
-  4. Install Frontend Dependencies ⚡
+  5. Install Frontend Dependencies ⚡
       Navigate to the frontend directory and install required packages:
   
       cd frontend
       npm install
      
-  5. Run the Application 🚀
+  6. Run the Application 🚀
       Start both the backend server and frontend application:
 
       Backend:
